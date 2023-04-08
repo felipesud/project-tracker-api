@@ -2,12 +2,22 @@
   "name": "project-tracker-api",
   "version": "1.0.0",
   "description": "This is an API built with Node.js and MongoDB that allows you to store and manage your career projects. You can add, update, delete, and retrieve information about your projects through the API endpoints.",
-  
-  "main": "index.js",
+  "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": ["nodejs", "api", "RESTful", "portfolio", "http", "json"],
+  "keywords": [
+    "nodejs",
+    "api",
+    "RESTful",
+    "portfolio",
+    "http",
+    "json"
+  ],
   "author": "Felipe dos Santos Belisario",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2",
+    "mongodb": "^5.2.0"
+  }
 }
